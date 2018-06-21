@@ -28,7 +28,9 @@ title: 关于EXO
 <p>
 出道日期:2012年4月8日
 <p>
-粉丝名:EXO-L  应援色:银白色 
+粉丝名:EXO-L
+<p>
+应援色:银白色 
 <p>
 {% include comments.html %}
 
