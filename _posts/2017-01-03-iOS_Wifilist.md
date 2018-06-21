@@ -1,6 +1,6 @@
 ---
 layout: post
-title: EXO的大哥
+title: XIUMIN
 birthday: 1990-03-26 
 tag: EXO
 ---
