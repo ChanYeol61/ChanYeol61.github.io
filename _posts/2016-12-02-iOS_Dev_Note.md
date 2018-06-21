@@ -1,63 +1,20 @@
 ---
 layout: post
-title: iOS开发中的小问题记录
-date: 2016-12-02 
-tag: iOS
+title: EXO的队长
+birthday: 1991-05-22 
+tag: EXO
 ---
 
-### NSKeyedArchiver 自定义对象写文件
+　　金俊勉，艺名SUHO，1991年5月22日出生于韩国首尔特别市永登浦区汝矣岛，韩国流行乐男歌手、演员、主持人，男子演唱组合EXO/EXO-K队长。2012年2月15日，S.M.Entertainment公开金俊勉的出道预告，以艺名SUHO的身份首次正式公开亮相；4月8日，随组合EXO-K发行首张迷你专辑《MAMA》，正式出道；同日，随组合在韩国音乐节目《人气歌谣》公开出道舞台；2013年6月3日，随组合发行首张正规专辑《XOXO (Kiss & Hug)》；同月，为美国喜剧动画电影《拯救大明星》韩国版中的小精灵“伯德”配音。2014年1月，客串出演KBS爱情火月剧《总理和我》；2月16日起，担任SBS音乐节目《人气歌谣》固定主持人；2015年3月30日，随组合发行第二张正规专辑《EXODUS》；11月4日，随组合发行EXO首张日语单曲专辑《Love Me Right ~romantic universe~》，正式在日本出道；2016年3月24日，主演青春励志电影《光辉岁月》，饰演尚宇；6月9日，随组合发行第三张正规专辑《EX’ACT》。
 
+1.早年经历
 
-如果存储的对象类名有变动，则需要设置clasName, 方法为：“setClassName:forClass:”        
-使用 NSKeyedArchiver 进行数据持久化时, 系统会默认使用类名去建表，如果类名变了，那么使用新的类名肯定是从本地获取不到表的，代码执行崩溃。     
-所以需要在 NSKeyedArchiver 或者 NSKeyedUnarchiver 时使用 “setClassName:forClass:” 指定类名。 
+金俊勉1991年5月22日出生于韩国汝矣岛，中学就读于韩国江南八学群之一的徽文中学，并以全校第16的成绩在该校毕业。2006年，金俊勉通过SM Casting System进入S.M.Entertainment，成为S.M.公司旗下的练习生。2008年，与朴灿烈、金钟仁共同出演东方神起《HAHA SONG》的MV。金俊勉高三准备出道时，因脚部受伤，不能跳舞只能唱歌，演戏也只能演静态的角色，所以个性变得很文静。2009年，参加多所大学的入学考试，最终以16：1的竞争率考入韩国艺术综合大学表演系，后因工作繁忙先办理休学后退学。2012年，与朴灿烈、边伯贤共同考入庆熙网络大学文化艺术经营学系。
 
+2.演艺经历
 
-### 断点配置：【Generate Debug Symbols】     
+2012年2月15日，S.M.Entertainment公开金俊勉的出道预告，艺名确定为SUHO；3月9日，随组合发行EXO第二首序曲《History》；31日，随组合在韩国首尔举行出道SHOWCASE；4月8日，随组合EXO-K发行首张迷你专辑《MAMA》，并以EXO、EXO-K队长身份正式出道，该专辑共收录了包括同名主打歌《MAMA》在内的5首歌曲，发行仅一个月销量便达7万张；同日，随EXO-K在韩国音乐节目《人气歌谣》公开出道舞台；8月，随组合EXO-K客串出演SBS青春偶像剧《致美丽的你》。
 
-描述: 用来控制断点是否生效,关闭此功能，打包 `.ipa` 时，包体积会小很多。    
-配置路径:【project/TARGETS/Build Settings/Apple LLVM7.1 - Code Genneration/Generate Debug Symbols】    
+3.个人生活
 
-
-### 捕获全局异常：【All Exception】    
-
-描述: 用来捕捉整个项目在 Xcode 里执行时的异常。例如：try/catch 时 catch住的异常,【All Exception】可以直接定位到具体位置。     
-配置路径: 异常捕捉(commod+7)/Xcode左下角点击+/Add Exception Breakpoint/完成(回车键)  
-
-
-### UI相关
-
-1、设置状态栏颜色：
-
-```
-
-info.plist 添加 View controller-based status bar appearance - NO     
-代码里写 [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent]; 再次运行后状态栏就会变成白色。    
-
-```
-
-2、左滑返回手势失效了怎么办：   
-
-```    
-
-设置 navigationItem.leftBarButtonItem 之后，左滑返回手势就会失效。设置一下 UIGestureRecognizerDelegate 代理即可：
-
-self.navigationController.interactivePopGestureRecognizer.delegate = self;
-
-```
-
-3、让 TableView的 下拉 和 上拉 显示不一样的背景颜色：
-
-```
-
-给 TableView 上加一个 View，View 的 Frema：
-CGRectMake(0, -self.view.bounds.size.height, self.view.bounds.size.width, self.view.bounds.size.height + 2)，
-给变View的背景颜色就可以了。
-
-```
-
-
-<br>
-转载请注明：[潘柏信的博客](http://baixin) » [iOS开发中的小问题记录](http://baixin.io/2016/12/iOS_Dev_Note/)  
-
-
+金俊勉出身与精英家庭，父亲是一位大学教授，毕业于成均馆大学，在顺天乡大学任教。母亲也是教师出身，一家都是教职人员。
