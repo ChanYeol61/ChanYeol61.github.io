@@ -1,7 +1,7 @@
 ---
 layout: post
 title: EXO的大哥
-date: 1990-03-26 
+birthday: 1990-03-26 
 tag: EXO
 ---
 
